@@ -10,7 +10,7 @@ ZSH_DISABLE_COMPFIX="true"
 
 plugins=(git vi-mode python)
 
-source $ZSH/oh-my-zsh.sh
+source $HOME/.oh-my-zsh/oh-my-zsh.sh
 
 # aliases 
 alias vim=nvim 
