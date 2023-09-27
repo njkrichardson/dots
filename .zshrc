@@ -1,4 +1,4 @@
-# ZSHRC Configuration 
+# ZSH Configuration 
 #
 # Author: njkrichardson@princeton.edu 
 
@@ -11,6 +11,9 @@ ZSH_DISABLE_COMPFIX="true"
 plugins=(git vi-mode python)
 
 source $HOME/.oh-my-zsh/oh-my-zsh.sh
+
+# python development 
+export PYTHONBREAKPOINT=ipdb.set_trace
 
 # aliases 
 alias vim=nvim 
