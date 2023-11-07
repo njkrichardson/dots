@@ -19,3 +19,5 @@ export PYTHONBREAKPOINT=ipdb.set_trace
 alias vim=nvim 
 alias zshconfig="vim ~/.zshrc"
 alias nvimconfig="vim ~/.config/nvim"
+
+eval "$(direnv hook zsh)"
